@@ -1,0 +1,19 @@
+#define _CRT_SECURE_NO_WARNINGS	
+#include<stdio.h>
+int main()
+{
+	do {
+
+		printf("请输入矩形的长：\n");
+		double a;
+		scanf("%lf", &a);
+		printf("请输入矩形的宽：\n");
+		double b;
+		scanf("%lf", &b);
+		double c = a * b;
+		printf("矩形的面积为：%lf\n", c);
+	} while (1);
+	return 0;
+
+}
+
